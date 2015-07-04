@@ -1,0 +1,55 @@
+{
+  "family": "docker-ubuntu-ffmpeg",
+  "containerDefinitions": [
+    {
+      "name": "docker-ubuntu-ffmpeg",
+      "image": "konwilms/docker-ubuntu-ffmpeg",
+      "cpu": 10,
+      "memory": 500,
+      "links": [
+        ""
+      ],
+      "portMappings": [
+        {
+          "containerPort": 0,
+          "hostPort": 0,
+          "protocol": ""
+        }
+      ],
+      "essential": true,
+      "entryPoint": [
+        ""
+      ],
+      "command": [
+        ""
+      ],
+      "environment": [
+        {
+          "name": "",
+          "value": ""
+        }
+      ],
+      "mountPoints": [
+        {
+          "sourceVolume": "",
+          "containerPath": "",
+          "readOnly": true
+        }
+      ],
+      "volumesFrom": [
+        {
+          "sourceContainer": "",
+          "readOnly": true
+        }
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "name": "",
+      "host": {
+        "sourcePath": ""
+      }
+    }
+  ]
+}
