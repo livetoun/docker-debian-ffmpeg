@@ -1,7 +1,3 @@
-# Docker Ubuntu FFMPEG
-#
-# Provides latest FFMPEG on Ubuntu Base
-
 FROM ubuntu
 MAINTAINER Konstantin Wilms <kon@geopacket.com>
 
