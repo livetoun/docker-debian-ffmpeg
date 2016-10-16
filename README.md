@@ -1,4 +1,4 @@
-# Docker Ubuntu FFMPEG
+# Docker debian FFMPEG
 
 - Provides latest FFMPEG on Ubuntu Base
 
