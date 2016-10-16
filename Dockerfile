@@ -3,7 +3,7 @@ MAINTAINER Konstantin Wilms <kon@geopacket.com>
 
 ENV LIBVPX_VER 1.5.0
 
-RUN apt-get update
+RUN apt-get clean && apt-get update
 
 RUN apt-get -y install unzip git wget autoconf automake build-essential libass-dev libfreetype6-dev libgpac-dev \
     libtheora-dev libtool libvorbis-dev libxfixes-dev pkg-config texi2html zlib1g-dev
