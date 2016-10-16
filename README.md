@@ -14,5 +14,5 @@ chmod +x install.sh
 
 ## run installation FFMPEG
 ~~~
-sudo docker build -t livetoun/docker-debian-ffmpeg github.com/livetoun/docker-debian-ffmpeg
+docker build -t livetoun/docker-debian-ffmpeg github.com/livetoun/docker-debian-ffmpeg
 ~~~
